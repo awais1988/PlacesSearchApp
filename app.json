@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Places Search App",
+    "slug": "places-search-app",
+    "version": "1.0.0",
+    "platforms": ["ios", "android"],
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs access to location to display maps and search places."
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "INTERNET"]
+    },
+    "extra": {
+      "googlePlacesApiKey": "YOUR_GOOGLE_PLACES_API_KEY_HERE"
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "icon": "./assets/icon.png",
+    "scheme": "placessearchapp",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    }
+  }
+}
