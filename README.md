@@ -12,7 +12,7 @@ A React Native mobile application built with Expo that allows users to search fo
 - **Redux-Observable** - Async operations handled with RxJS epics
 - **Modern Architecture** - Clean, scalable codebase with best practices
 
-# 🚀 Features
+# 🛠 Tech Stack
 
 - **Framework**: React Native with Expo
 - **State Management**: Redux Toolkit + Redux-Observable
